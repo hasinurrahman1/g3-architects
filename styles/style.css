@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@800&family=Open+Sans&family=Poppins:wght@500;700&family=Work+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    height: auto;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+/* nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 0 110px;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+}
+
+nav ul li {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header-content {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.header-container {
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+}
+
+.header-btn {
+    width: 170px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    background-color: #FB8200;
+    border: 0;
+    border-radius: 7px;
+}
+
+.header-content img {
+    width: 80%;
+    /* height: 500px; */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* main section */
+.main-section {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    padding: 0 110px;
+}
+
+.section-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.section-description {
+    margin-top: 200px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.text-design {
+    color: #131313;
+}
+
+.text-modify {
+    color: #FF900E;
+}
+
+.section-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.section-btn {
+    width: 170px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 30px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+
+/* blockquote {
+    border-left: 5px solid red;
+} */
+
+.sub-section {
+    display: flex;
+    gap: 50px;
+    padding: 0 110px;
+    margin-top: 100px;
+}
+
+.subsection-container {
+    margin-top: 35px;
+}
+
+.subsection-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.subsection-title blockquote {
+    border-left: 5px solid #FF900E;
+}
+
+.subsection-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+}
+
+.subsection-detail {
+    padding-left: 10px;
+}
+
+.subsection-info {
+    max-width: 450px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.info-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.info-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+}
+
+.sub-section img {
+    max-width: 550px;
+    /* height: 850px; */
+}
+
+.subsection-btn {
+    width: 260px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 520px;
+}
+
+.subsection-btn h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.subsection-btn p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 8px;
+    /* background-color: #727272; */
+}
+
+.fact {
+    margin-left: 120px;
+    width: 542px;
+    height: 52px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.fact-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+}
+
+.box-section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.box img {
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+.box-n {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.box-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 7px;
+}
